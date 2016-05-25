@@ -3,7 +3,7 @@ from numpy.testing.utils import assert_almost_equal
 
 import preprocess
 
-
+# special comment for travis test
 def test_center():
     # After centering, mean should be the desired mean and the
     # standard deviation should be unchanged
